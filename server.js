@@ -20,4 +20,4 @@ app.use(express.static(__dirname + '/public'));
 
 app.use('/', indexRoutes);
 app.use('/consequences', consequenceRoutes);
-app.use('/')
+app.use('/choices', choiceRoutes);
